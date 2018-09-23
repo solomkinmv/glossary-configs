@@ -1,2 +1,4 @@
 server:
   port: 8082
+
+hystrix.command.yandex-translate.execution.isolation.thread.timeoutInMilliseconds: 2000
