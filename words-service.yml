@@ -9,3 +9,8 @@ spring:
     password: ${DATABASE_PASSWORD}
 
 hystrix.command.tts-service.execution.isolation.thread.timeoutInMilliseconds: 4000
+
+ribbon:
+  eager-load:
+    enabled: true
+    clients: tts-service

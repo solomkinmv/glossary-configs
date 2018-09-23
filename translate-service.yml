@@ -1,4 +1,7 @@
 server:
   port: 8082
 
-hystrix.command.yandex-translate.execution.isolation.thread.timeoutInMilliseconds: 2000
+ribbon:
+  eager-load:
+    enabled: true
+    clients: yandex-translate
