@@ -19,3 +19,5 @@ management:
   endpoint.health.show-details: always
 
 feign.hystrix.enabled: true
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 1000
