@@ -1,2 +1,9 @@
 server:
   port: 8083
+
+ribbon:
+  eager-load:
+    enabled: true
+    clients: storage-service
+
+hystrix.command.storage-service.execution.isolation.thread.timeoutInMilliseconds: 3000
