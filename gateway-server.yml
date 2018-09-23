@@ -11,3 +11,6 @@ hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
 ribbon:
   ReadTimeout: 5000
   ConnectTimeout: 200
+  eager-load:
+    enabled: true
+    clients: storage-service,tts-service,image-service,words-service,translate-service
