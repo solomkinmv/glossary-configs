@@ -1,2 +1,6 @@
 server:
   port: 8086
+
+endpoints:
+  prometheus:
+    enabled: true
