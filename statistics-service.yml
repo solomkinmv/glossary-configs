@@ -4,3 +4,21 @@ server:
 endpoints:
   prometheus:
     enabled: true
+
+spring:
+  cloud.stream.bindings:
+    input:
+      destination: learned-words
+      group: stats
+
+    output:
+      destination: learned-words
+
+  data.mongodb:
+    authentication-database: admin
+    database: stats
+    host: mongodb
+    password: pswrd
+    username: mongo_user
+
+queue.name: learned-words.stats
