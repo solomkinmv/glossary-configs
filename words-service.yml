@@ -8,6 +8,10 @@ spring:
     username: ${DATABASE_USER}
     password: ${DATABASE_PASSWORD}
 
+  cloud.stream.bindings:
+    output:
+      destination: learned-words
+
 hystrix.command.tts-service.execution.isolation.thread.timeoutInMilliseconds: 4000
 
 ribbon:
