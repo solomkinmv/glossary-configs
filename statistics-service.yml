@@ -17,7 +17,7 @@ spring:
   data.mongodb:
     authentication-database: admin
     database: stats
-    host: mongo
+    host: mongo-0.mongo
     password: pswrd
     username: mongo_user
 
