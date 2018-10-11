@@ -15,10 +15,10 @@ spring:
       destination: learned-words
 
   data.mongodb:
-    authentication-database: admin
+#    authentication-database: admin
     database: stats
     host: mongo-0.mongo
-    password: pswrd
-    username: mongo_user
+#    password: pswrd
+#    username: mongo_user
 
 queue.name: learned-words.stats
