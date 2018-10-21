@@ -21,3 +21,5 @@ management:
 feign.hystrix.enabled: true
 
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2000
+
+logging.level.io.github.solomkinmv.glossary: DEBUG
