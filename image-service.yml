@@ -8,7 +8,7 @@ ribbon:
 
 storage-service:
   ribbon:
-    ReadTimeout: 2500
+    ReadTimeout: 3500
     ConnectTimeout: 300
 
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 6000
