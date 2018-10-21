@@ -6,6 +6,8 @@ ribbon:
     enabled: true
     clients: storage-service
 
+storage-service:
+  ribbon:
     ReadTimeout: 2500
     ConnectTimeout: 300
 

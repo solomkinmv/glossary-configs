@@ -19,7 +19,7 @@ ribbon:
     enabled: true
     clients: tts-service
 
-storage-service:
+tts-service:
   ribbon:
     ReadTimeout: 2500
-    ConnectTimeout: 1000
+    ConnectTimeout: 300
