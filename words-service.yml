@@ -18,3 +18,5 @@ ribbon:
   eager-load:
     enabled: true
     clients: tts-service
+
+  read-timeout: 1500
