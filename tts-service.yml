@@ -11,4 +11,4 @@ storage-service:
     ReadTimeout: 2500
     ConnectTimeout: 300
 
-hystrix.command.storage-service.execution.isolation.thread.timeoutInMilliseconds: 6000
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 6000
