@@ -12,7 +12,7 @@ spring:
     output:
       destination: learned-words
 
-hystrix.command.tts-service.execution.isolation.thread.timeoutInMilliseconds: 4000
+hystrix.command.tts-service.execution.isolation.thread.timeoutInMilliseconds: 6000
 
 ribbon:
   eager-load:

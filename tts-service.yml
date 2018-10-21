@@ -6,4 +6,7 @@ ribbon:
     enabled: true
     clients: storage-service
 
-hystrix.command.storage-service.execution.isolation.thread.timeoutInMilliseconds: 3000
+    ReadTimeout: 2500
+    ConnectTimeout: 300
+
+hystrix.command.storage-service.execution.isolation.thread.timeoutInMilliseconds: 6000
